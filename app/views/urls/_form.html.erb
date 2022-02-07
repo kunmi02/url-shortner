@@ -1,0 +1,25 @@
+<%= form_with(model: url, local: true) do |form| %>
+  <% if url.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(url.errors.count, "error") %> prohibited this url from being saved:</h2>
+
+      <ul>
+        <% url.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="form-content">
+    <div class="field">
+     <%# <%= form.label :original_url > %>
+      <%= form.text_area :original_url ,  id: :url_original_url, class:'textarea', placeholder:'Enter URL'%>
+    </div>
+
+    <div class="actions">
+      <%= form.submit  value: 'Shorten Link', class:'button' %>
+    </div>
+  </div>
+  
+<% end %>

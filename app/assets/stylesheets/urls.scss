@@ -1,0 +1,40 @@
+// Place all the styles related to the urls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.form {
+  color: aqua;
+}
+.nav-topic {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+.form-content {
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.textarea {
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  border-radius:15px;
+  border:0;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  // height:50px;
+}
+
+.button {
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:100%;
+}
