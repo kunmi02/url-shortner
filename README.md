@@ -11,7 +11,7 @@ Urls are shortened using a base62 token strategy, trying to avoid collisions and
 
 ## Live Demo
 
-[BASE_URL] https://blooming-springs-72487.herokuapp.com/api/
+[BASE_URL] https://floating-eyrie-47045.herokuapp.com/
 
 
 ## Getting Started
