@@ -69,7 +69,6 @@
 #     end
 # end
 class UrlsController < ApplicationController
-
   def index
     @urls = all_urls_desc
     @url = Url.new
@@ -109,7 +108,8 @@ class UrlsController < ApplicationController
     end
   end
 
-private
+  private
+
   def all_urls_desc
     Url.all.order(id: :desc)
   end
